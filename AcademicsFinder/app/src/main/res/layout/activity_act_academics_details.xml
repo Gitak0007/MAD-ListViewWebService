@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee">
+
+    <RelativeLayout
+        android:id="@+id/rlTop"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:background="#D83521">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Details"
+            android:textColor="#fff"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"/>
+
+        <Button
+            android:id="@+id/btDirection"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:background="#C92700"
+            android:text="Direction"
+            android:textColor="#fff"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rlTop"
+        android:padding="25dp"
+        android:orientation="vertical"
+        android:background="@drawable/bgrect"
+        android:elevation="25dp"
+        android:outlineProvider="bounds"
+        android:layout_margin="25dp">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/tvContactNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:id="@+id/tvAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/sector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            />
+
+
+
+        <TextView
+            android:id="@+id/admissionDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/fee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            />
+
+        <Button
+            android:id="@+id/btClose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Close"
+            android:layout_marginTop="50dp"
+            android:background="#00c98c"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

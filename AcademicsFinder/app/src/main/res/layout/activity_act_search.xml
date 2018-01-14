@@ -1,0 +1,161 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee">
+
+    <RelativeLayout
+        android:id="@+id/rlTop"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:background="#D83521">
+
+        <Button
+            android:id="@+id/btHome"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="#C92700"
+            android:text="Home"
+            android:textColor="#fff"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:textColor="#fff"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"/>
+        <Button
+            android:id="@+id/btSync"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:background="#C92700"
+            android:text="Sync"
+            android:textColor="#fff"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/llTab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:layout_below="@+id/rlTop"
+        android:paddingTop="10dp"
+        android:background="#D83521">
+
+        <TextView
+            android:id="@+id/tvSchool"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:text="School"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:background="@drawable/tv_bg"
+            android:paddingBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/tvCollege"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:text="College"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:paddingBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/tvUniversity"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:text="University"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:paddingBottom="15dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgrect"
+        android:elevation="25dp"
+        android:outlineProvider="bounds"
+        android:layout_margin="25dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="9dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_below="@+id/llTab"
+        >
+
+        <EditText
+            android:id="@+id/etSearchText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Search by name"
+            />
+
+
+        <TextView
+            android:id="@+id/tvType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select type"
+            android:textSize="12dp"
+            android:textColor="#919191"
+            android:layout_marginTop="15dp"/>
+        <Spinner
+            android:id="@+id/spType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Location"
+            android:textSize="12dp"
+            android:textColor="#919191"
+            android:layout_marginTop="15dp"/>
+
+        <Spinner
+            android:id="@+id/spLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Fee Range"
+            android:textSize="12dp"
+            android:textColor="#919191"
+            android:layout_marginTop="15dp"/>
+
+        <Spinner
+            android:id="@+id/spFeeRange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <Button
+            android:id="@+id/btSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_blue"
+            android:text="Search"
+            android:textSize="14dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

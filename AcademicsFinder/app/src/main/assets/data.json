@@ -1,0 +1,69 @@
+[
+  {
+    "name": "Aga Khan University, Karachi",
+    "contactInfo": "34930051",
+    "address": "Stadium Road P.O. Box 3500 Karachi 74800",
+    "mLat": "25.08358287328696",
+    "mLong": "26.01234186739",
+    "type": "3",
+    "sector": "1",
+    "gender": "3",
+    "fee": "1000-5000",
+    "admissionDate": "01-11-2017",
+    "isFav": "0",
+    "route": [{
+                "bus":"1D"
+              },
+              {
+                "bus":"W11"
+              },
+              {
+                "bus":"2D"
+              }]
+  },
+  {
+    "name": "Beacon House Grammer School",
+    "contactInfo": "34930051",
+    "address": "Stadium Road P.O. Box 3500 Karachi 74800",
+    "mLat": "25.08358287328696",
+    "mLong": "26.01234186739",
+    "type": "1",
+    "sector": "1",
+    "gender": "3",
+    "fee": "1000-5000",
+    "admissionDate": "01-11-2017",
+    "isFav": "0",
+    "route": [{
+      "bus":"1D"
+    },
+      {
+        "bus":"W11"
+      },
+      {
+        "bus":"2D"
+      }]
+  },
+  {
+    "name": "Ayesha Bawani College",
+    "contactInfo": "34930051",
+    "address": "Stadium Road P.O. Box 3500 Karachi 74800",
+    "mLat": "25.08358287328696",
+    "mLong": "26.01234186739",
+    "type": "2",
+    "sector": "1",
+    "gender": "3",
+    "fee": "1000-5000",
+    "admissionDate": "01-11-2017",
+    "isFav": "0",
+    "route": [{
+      "bus":"1D"
+    },
+      {
+        "bus":"W11"
+      },
+      {
+        "bus":"2D"
+      }]
+  }
+
+]

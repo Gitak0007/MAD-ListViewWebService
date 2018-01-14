@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rlTop"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:background="#D83521">
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:textColor="#fff"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"/>
+        <Button
+            android:id="@+id/btFavList"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:background="#C92700"
+            android:text="Fav List"
+            android:textColor="#fff"/>
+    </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rlTop">
+
+    </ListView>
+
+</RelativeLayout>
